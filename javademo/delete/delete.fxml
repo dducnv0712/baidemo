@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javademo.delete.Controller">
+   <children>
+      <TextField fx:id="txtID" layoutX="134.0" layoutY="134.0" prefHeight="66.0" prefWidth="334.0" />
+      <Text layoutX="77.0" layoutY="176.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Text>
+      <Button layoutX="233.0" layoutY="266.0" mnemonicParsing="false" onAction="#delete" prefHeight="50.0" prefWidth="136.0" text="Xóa" />
+   </children>
+</Pane>

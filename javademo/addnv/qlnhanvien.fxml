@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javademo.addnv.Controller">
+   <children>
+      <TextField fx:id="txtName" layoutX="263.0" layoutY="168.0" prefHeight="63.0" prefWidth="420.0" />
+      <TextField fx:id="txtPhone" layoutX="263.0" layoutY="253.0" prefHeight="63.0" prefWidth="420.0" />
+      <Text layoutX="57.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ho Và Tên" wrappingWidth="145.087890625">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="57.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Số Điện Thoại" wrappingWidth="145.087890625">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button layoutX="263.0" layoutY="391.0" mnemonicParsing="false" onAction="#submit" prefHeight="41.0" prefWidth="121.0" text="Thêm" />
+      <Button layoutX="413.0" layoutY="391.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="121.0" text="Sửa" />
+      <Button layoutX="562.0" layoutY="391.0" mnemonicParsing="false" onAction="#deleting" prefHeight="41.0" prefWidth="121.0" text="Xóa" />
+      <Text layoutX="332.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thêm Nhân Viên" wrappingWidth="161.087890625">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
